@@ -80,7 +80,7 @@ artillery quick -c 50 -n 20 "http://localhost:8080/info" > result_cluster.txt
 **PRUEBAS SOBRE PROFILING:**
 
 - Manejado en consola.
-1. Ejecutamos el server y realizamos test con artillery
+1. Ejecute el server y realizamos test con artillery
 
 ```
 node --prof server.js
@@ -92,7 +92,7 @@ node --prof-process slow-v8.log > prof_slow.txt
 ```
 
 
-Realizamos test con artillery
+Realize test con artillery
 
 ```
 artillery quick -c 50 -n 20 "http://localhost:8080/info" > artillery_slow.txt
@@ -102,7 +102,7 @@ artillery quick -c 50 -n 20 "http://localhost:8080/info" > artillery_slow.txt
 
 **Consigna parte 3:**
 
-Luego utilizaremos Autocannon en línea de comandos, emulando 100 conexiones concurrentes realizadas
+Utilize Autocannon en línea de comandos, emulando 100 conexiones concurrentes realizadas
 en un tiempo de 20 segundos. Extraer un reporte con los resultados
 
 **PRUEBAS CON AUTOCANNON**
