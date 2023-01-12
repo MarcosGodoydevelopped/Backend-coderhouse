@@ -167,12 +167,4 @@ run('http://localhost:8080/info')
 ```
 "start": "0x server.js -p 8080",
 "test": "node benchmark.js"
-```
-
-3. Ejecutar npm run start.
-4. ejecutar el npm run test.
-
-
-
-5. Detener la ejecución del server y revisar el flamegraph generado.
-
+``
