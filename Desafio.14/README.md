@@ -56,7 +56,7 @@ module.exports = systemRouter
 ### **Consigna parte 2:**
 ---
 Utilize como test de carga Artillery en línea de comandos, emulando 50 conexiones concurrentes con
-20 request por cada una. Extraer un reporte con los resultados en archivo de texto.
+20 request por cada una.
 
 
 **PRUEBAS CON ARTILLERY EN MODO FORK Y CLUSTER:**
